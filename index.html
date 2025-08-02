@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planet Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌌 Planet Explorer</h1>
+
+  <div id="planet-container" class="planet-grid"></div>
+
+  <section id="planet-info" class="hidden">
+    <h2 id="planet-title">Planet Name</h2>
+    <img id="planet-image" src="" alt="Planet Image" />
+    <p id="planet-fact"></p>
+  </section>
+
+  <section id="quiz-section" class="hidden">
+    <h2>🎮 Quiz on <span id="quiz-planet-name"></span></h2>
+    <div id="quiz-box">
+      <p id="question">Loading...</p>
+      <div id="options"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <footer>
+    <p>🚀 Made by Aarti Kumari</p>
+    <a href="https://github.com/aartikumarisingh2221" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/aarti-singh-992275374/" target="_blank">LinkedIn</a>  |
+    <a href="https://vercel.com/aarti-kumaris-projects-ea630f28" target="_blank">vercel</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
